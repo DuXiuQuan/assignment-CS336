@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "pytest：跑当前文件",
+      "type": "shell",
+      "command": "E:\\cs336\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "pytest", "${relativeFile}", "-q"],
+      "group": { "kind": "test", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "pytest：跑批次 1（3 个基础算子）",
+      "type": "shell",
+      "command": "E:\\cs336\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "pytest", "tests/test_nn_utils.py", "-q"],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "pytest：跑全部 48 个",
+      "type": "shell",
+      "command": "E:\\cs336\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "pytest", "tests", "-q"],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true },
+      "problemMatcher": []
+    }
+  ]
+}

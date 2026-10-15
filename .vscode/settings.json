@@ -1,0 +1,17 @@
+{
+  "python.defaultInterpreterPath": "E:\\cs336\\.venv\\Scripts\\python.exe",
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["tests"],
+  "terminal.integrated.env.windows": {
+    "PATH": "E:\\cs336\\.venv\\Scripts;${env:PATH}",
+    "VIRTUAL_ENV": "E:\\cs336\\.venv",
+    "HF_ENDPOINT": "https://hf-mirror.com",
+    "PYTHONUTF8": "1"
+  },
+  "editor.inlineSuggest.enabled": false,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
+  }
+}
